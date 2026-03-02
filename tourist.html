@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Yangtze | History</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #080a0c;
+            --card-bg: #12161b;
+            --text-main: #f0f0f0;
+            --text-dim: #a0aab4;
+            --accent: #00d2b4; 
+            --nav-bg: rgba(8, 10, 12, 0.9);
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.8;
+            letter-spacing: 0.02rem;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 10%;
+            background: var(--nav-bg);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid #1f262e;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            font-style: italic;
+            color: var(--accent);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 3rem;
+            margin: 0;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 8rem auto;
+            padding: 0 30px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.5rem;
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+            line-height: 1.1;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--accent);
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            border-bottom: 1px solid #1f262e;
+            padding-bottom: 0.5rem;
+        }
+
+        .content-box {
+            background: var(--card-bg);
+            padding: 3.5rem;
+            border-radius: 4px;
+            border-left: 4px solid var(--accent);
+            box-shadow: 20px 20px 60px rgba(0,0,0,0.5);
+        }
+
+        p {
+            font-size: 1.15rem;
+            font-weight: 300;
+            margin-bottom: 1.8rem;
+            color: var(--text-dim);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 1.5rem;
+            color: var(--text-dim);
+            font-weight: 300;
+            font-size: 1.05rem;
+        }
+
+        strong {
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 5rem 2rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">The Yangtze River</div>
+               <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+            <li><a href="expedition.html">Expedition</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="facts.html">Facts</a></li>
+            <li><a href="tourist.html">Tourism</a></li>
+<li><a href="quicklinks.html">Quick Links</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>River Tourism</h1>
+        
+        <div class="content-box">
+            <p>From the rugged majesty of the Three Gorges to the neon skyline of Shanghai, the Yangtze offers one of the world's most diverse cultural and natural journeys. For many, a <strong>luxury cruise</strong> is the defining way to witness the pulse of China.</p>
+
+            <h2>🚢 Iconic Cruise Routes</h2>
+            <p>Most travelers choose itineraries spanning 4 to 12 days, focusing on the river's most scenic and historic stretches.</p>
+            <ul>
+                <li><strong>Chongqing to Yichang (4-5 Days):</strong> The most popular "Three Gorges Essence" route, taking you through the heart of the river's dramatic landscapes and past the Three Gorges Dam.</li>
+                <li><strong>Shanghai to Chongqing (11-12 Days):</strong> An in-depth panorama crossing the entire length of the river's mid-to-lower reaches, stopping at major cultural hubs like <strong>Nanjing</strong> and <strong>Wuhan</strong>.</li>
+                <li><strong>Special Explorations:</strong> Premium ships like the <em>Yangzi Explorer</em> now offer exclusive maiden voyages to the <strong>Shennongjia Nature Reserve</strong>, a UNESCO World Heritage site known for its rare biodiversity.</li>
+            </ul>
+
+            <layout>
+            imageCarousel {
+               imageCarouselItem(results=["1.2.14"])
+               imageCarouselItem(results=["1.3.11"])
+               imageCarouselItem(results=["1.4.12"])
+            }
+            </layout>
+
+            <h2>🏰 Must-See Landmarks</h2>
+            <ul>
+                <li><strong>Three Gorges (Qutang, Wu, Xiling):</strong> Famed for over a millennium, these gorges remain the river's signature attraction, offering sheer limestone cliffs and mist-shrouded peaks.</li>
+                <li><strong>Fengdu Ghost City:</strong> A bizarre and unique 2,000-year-old temple complex on the river's north bank that represents the trials of the underworld.</li>
+                <li><strong>Shibaozhai Pagoda:</strong> A 12-story architectural marvel built directly into a cliffside without using a single nail.</li>
+                <li><strong>White Emperor City:</strong> Situated at the entrance to Qutang Gorge, this historic site offers the iconic vista featured on the back of the 10 RMB note.</li>
+            </ul>
+
+            <h2>💡 Travel Planning</h2>
+            <ul>
+                <li><strong>Best Time to Visit:</strong> Spring (March–June) and Autumn (September–November) offer the most comfortable weather and clearest views.</li>
+                <li><strong>Modern Comforts:</strong> New "smart-space" vessels like the <em>Vista Harmony</em> (launching April 2026) offer all-inclusive luxury retreats with butler service and private balconies.</li>
+            </ul>
+
+            
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 Edward White
+    </footer>
+
+</body>
+</html>
